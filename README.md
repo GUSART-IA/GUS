@@ -1,5 +1,8 @@
 # GUS · Puente Higgsfield → After Effects
 
+> Adaptaciones del KV de **CM DIGITAL ECOMMERCE** (Illustrator → AE, loop de 3
+> piezas por medida de pantalla): ver [`ccb-ecommerce/`](ccb-ecommerce/README.md).
+
 Pipeline para construir un **editable** (plantilla paramétrica) sobre el video de
 la composición **CAMPAÑA INTEGRAL**, y para bajar assets generados en Higgsfield
 directamente a esa plantilla.

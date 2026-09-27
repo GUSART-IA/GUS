@@ -1,0 +1,69 @@
+{
+  "proyecto": "CM DIGITAL ECOMMERCE",
+  "carpetaMadre": null,
+  "fps": 30,
+  "fundido": 0.5,
+  "duracionPorDefecto": 30,
+  "qr": "01_FUENTES/QR/QR.png",
+
+  "piezas": [
+    { "id": "PIEZA_01", "archivo": "01_FUENTES/AI/PIEZA_01.ai" },
+    { "id": "PIEZA_02", "archivo": "01_FUENTES/AI/PIEZA_02.ai" },
+    { "id": "PIEZA_03", "archivo": "01_FUENTES/AI/PIEZA_03.ai" }
+  ],
+
+  "copy": [
+    { "id": "TITULAR", "rol": "titulo", "texto": "PENDIENTE\rCOPY SLIDE 28" },
+    { "id": "BAJADA", "rol": "cuerpo", "texto": "Pendiente: bajada del slide 28" },
+    { "id": "LEGAL", "rol": "legal", "texto": "Pendiente: legal del slide 28" }
+  ],
+
+  "estilos": {
+    "titulo": { "fuente": null, "color": [1, 1, 1], "tamano": 0.30, "interlineado": 1.0, "tracking": 0 },
+    "cuerpo": { "fuente": null, "color": [1, 1, 1], "tamano": 0.12, "interlineado": 1.15, "tracking": 0 },
+    "legal":  { "fuente": null, "color": [1, 1, 1], "tamano": 0.05, "interlineado": 1.2, "tracking": 0 }
+  },
+
+  "layouts": {
+    "horizontal": {
+      "texto":      [0.06, 0.12, 0.42, 0.52],
+      "textoSinQR": [0.06, 0.12, 0.46, 0.76],
+      "qr":         [0.06, 0.68, 0.22],
+      "alinear": "izquierda", "vertical": "centro", "separacion": 0.04
+    },
+    "panoramico": {
+      "texto":      [0.04, 0.15, 0.36, 0.70],
+      "textoSinQR": [0.04, 0.12, 0.44, 0.76],
+      "qr":         [0.42, 0.15, 0.70],
+      "alinear": "izquierda", "vertical": "centro", "separacion": 0.04
+    },
+    "cuadrado": {
+      "texto":      [0.08, 0.58, 0.60, 0.32],
+      "textoSinQR": [0.08, 0.58, 0.84, 0.32],
+      "qr":         [0.72, 0.70, 0.20],
+      "alinear": "izquierda", "vertical": "abajo", "separacion": 0.04
+    },
+    "vertical": {
+      "texto":      [0.08, 0.60, 0.84, 0.24],
+      "textoSinQR": [0.08, 0.62, 0.84, 0.30],
+      "qr":         [0.445, 0.86, 0.11],
+      "alinear": "centro", "vertical": "abajo", "separacion": 0.04
+    }
+  },
+
+  "formatos": [
+    {
+      "nombre": "HORIZONTAL LOOP",
+      "ancho": "arte", "alto": "arte",
+      "duracion": 30, "qr": false,
+      "nota": "3 piezas del .ai, 10 s cada una. QR por confirmar con el CM."
+    },
+    {
+      "nombre": "DOOH Autopista Norte con Calle 184",
+      "ancho": null, "alto": null,
+      "duracion": null, "qr": false,
+      "pendiente": true,
+      "nota": "Sin QR. Medida y duracion: CM slides 28-36."
+    }
+  ]
+}

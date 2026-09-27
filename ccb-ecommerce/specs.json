@@ -59,11 +59,17 @@
       "nota": "3 piezas del .ai, 10 s cada una. QR por confirmar con el CM."
     },
     {
+      "nombre": "DOOH Estacion Autopista Norte con Calle 100",
+      "ancho": 960, "alto": 270,
+      "duracion": 30, "qr": false,
+      "nota": "PDF: pantalla indoor, Bogota, Troncal Autopista Nte., 960x270 px. Duracion no especificada -> 30 s. QR por confirmar."
+    },
+    {
       "nombre": "DOOH Autopista Norte con Calle 184",
       "ancho": null, "alto": null,
       "duracion": null, "qr": false,
       "pendiente": true,
-      "nota": "Sin QR. Medida y duracion: CM slides 28-36."
+      "nota": "Sin QR. Confirmar si es la misma pantalla que Calle 100 (el PDF dice Calle 100)."
     }
   ]
 }
